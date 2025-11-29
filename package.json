@@ -12,10 +12,12 @@
     ]
   },
   "dependencies": {
-    "dotenv": "^16.0.1",
     "@forestadmin/agent": "^1.0.0",
     "@forestadmin/datasource-sql": "^1.0.0",
-    "pg": "^8.8.0"
+    "dotenv": "^16.0.1",
+    "forest-express-sequelize": "^9.6.1",
+    "pg": "^8.16.3",
+    "sequelize": "^6.37.7"
   },
   "devDependencies": {
     "nodemon": "^3.1.10"
